@@ -59,7 +59,7 @@ function showOrderSummary(paymentInfo){
     }
 )}
 
-function updateWallet(orderId){
+function updateWallet(showOrderSummaryd){
     return new Promise (function(resolve,reject){
         resolve("your wallet balance is succesfully Updated");
     }
